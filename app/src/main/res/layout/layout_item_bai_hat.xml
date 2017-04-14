@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:id="@+id/txtMaBH"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="#####"
+        android:textSize="25sp"
+        android:textColor="#152DEC"
+        android:layout_gravity="center_vertical"
+        />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/txtTenBH"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Tên bài hát"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:id="@+id/txtTacGia"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Tác giả"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgYeuThich"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_star_outline_24dp"
+        android:layout_gravity="center_vertical"
+        />
+</LinearLayout>
